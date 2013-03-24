@@ -1,0 +1,124 @@
+
+::selection, ::moz-selection, ::webkit-selection {background-color: #338833;color: white;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {margin: 0;padding: 0;}
+ol, ul {list-style: none;}
+img{border:0}
+a,input,select,textarea{outline:none}
+a{text-decoration:none}
+body { background-color: #fff; font: 12px / 20px normal Helvetica, Arial, sans-serif; color: #4F5155; }
+a { color: #003399; background-color: transparent; font-weight: normal; }
+h1 { color: #444; background-color: transparent; border-bottom: 1px solid #D0D0D0; font-size: 19px; font-weight: normal; margin: 0 0 14px 0; padding: 14px 15px 10px 15px; }
+code { font-family: Consolas, Monaco, Courier New, Courier, monospace; font-size: 12px; background-color: #f9f9f9; border: 1px solid #D0D0D0; color: #002166; display: block; margin: 14px 0 14px 0; padding: 12px 10px 12px 10px; }
+
+html,body{overflow-x:hidden}
+input.text,textarea.text { padding: 5px; line-height: 18px; font-size: 12px; border:1px #d3d9df solid}
+input.text:focus,textarea.text:focus{border:1px #00ff66 solid;box-shadow:0 0 2px #00ff66}
+input.mini{border:1px #d3d9df solid;padding:0 3px;}
+input.button{padding:5px 8px;line-height:16px}
+.left{float:left;_display:inline;}
+.right{float:right;_display:inline}
+.clear{display:block;height:0px;overflow:hidden;clear:both}
+.clearfix{clear:both}
+.container { margin: 5px; margin-bottom:0;border:1px #ccc solid;box-shadow:0 0 4px #c0c0c0;-webkit-box-shadow:0 0 4px #c0c0c0;}
+.noborder{border:0}
+
+/*标签样式*/
+span.tag,span.addtag{padding:3px 8px;margin:2px 5px;background:#ddd;font-weight:normal}
+span.tag:hover{background:#d0d0d0}
+span.tag a{margin-left:8px;padding:0 3px;color:#fff}
+span.tag a:hover{color:#000}
+span.taghover{background:#960}
+span.addtag{cursor:pointer;}
+span.addtag:hover{color:#000}
+tbody td span.tag,tbody td span.addtag{float:left}
+
+
+/*通用样式*/
+
+/*提示条*/
+.jquery_tips p,.jquery_tips span{height:52px;background:url(../image/tips32.png);_background:url(../image/tips.png)}
+.jquery_tips{font-size:14px;width:120px;position:absolute;z-index:1000}
+.jquery_tips .right{width:5px;background-position:left top}
+.jquery_tips .left{width:14px;background-position:-6px top}
+.jquery_tips .stat{width:29px;display:inline-block;float:left;display:inline;margin-right:4px;}
+.jquery_tips .main{white-space:nowrap;margin:0;background-position:left -161px;line-height:52px;float:left}
+.jquery_tips .main .okay{background-position:-20px top;}
+.jquery_tips .main .warn{background-position:-20px -54px;;}
+.jquery_tips .main .error{background-position:-20px -108px;}
+.jquery_tips .main .load{background:url(../image/loading.gif) center center no-repeat;}
+
+/*提醒信息*/
+.ico{}
+p.tips{border:1px #F96 solid;background:#FFC;color:#444;padding:5px 10px;}
+
+/*表格通用*/
+table{border-collapse:collapse;width:100%}
+thead{border:1px #e6e6e6 solid;}
+thead th{background:#333;color:#eee;height:24px;line-height:24px;font-size:13px}
+tbody th{background:#eee;color:#222;text-align:left}
+tbody th,tbody td{border:1px #e6e6e6 solid;padding:5px;height:24px;}
+tbody .operat{text-align:center;border-left:1px dashed #333;padding-left:0}
+tbody .operat a{margin:0 3px;padding:2px 3px;color:#333}
+tbody tr.hover td{background:#f4f4f4}
+tbody tr.select td{background:#eee}
+td.aligncenter{text-align:center}
+td span.tip{color:#666;padding-left:10px;}
+table#edittable tfoot,table#listtable tfoot{background:#fff;border-top:1px #ccc solid;z-index:1000}
+table#edittable thead,table#listtable thead{z-index:1000}
+/*页面导航*/
+#nav {margin-bottom:5px;padding:5px 10px;}
+#nav a{color:#666}
+#nav a:hover{color:#000}
+
+#links{padding:5px 10px;}
+#links a{color:#333;border:1px #ccc solid;padding:2px 5px;margin:0 5px}
+
+
+#submit{padding:5px 10px;background:#fff}
+#submit input.button{margin:0 10px;}
+#submit label{padding:0 5px;}
+/*列表*/
+#list {margin-bottom:5px }
+/*编辑*/
+#edit {margin-bottom:5px }
+/*底部操作*/
+#foot {}
+#foot input[type=checkbox]{vertical-align:middle;}
+#foot span.group{border:1px #ccc solid;padding:3px 8px;padding-left:0;}
+
+
+/*登陆页样式*/
+#login{width:500px;height:240px;margin:0 auto;margin-top:220px;padding:10px;border:1px #ccc solid;box-shadow:0 0 8px #c0c0c0;-webkit-box-shadow:0 0 8px #c0c0c0}
+#login p{padding:10px 50px;}
+
+/*错误页样式*/
+#errorblock{width:500px;margin:0 auto;margin-top:220px;border:1px #ccc solid;box-shadow:0 0 8px #c0c0c0;-webkit-box-shadow:0 0 8px #c0c0c0}
+#errorblock dt{border-bottom:1px #ccc solid;line-height:28px;font-size:14px;padding-left:10px;font-weight:bold}
+#errorblock dd {padding:10px;text-indent:2em}
+
+/*首页布局样式*/
+#top{height:40px;background:#093;box-shadow:0 0 8px #60c0a0;-webkit-box-shadow:0 0 8px #60c0a0;margin-bottom:5px}
+#top a.logo{font-size:16px;line-height:35px;font-weight:bold;color:#fff;padding-left:10px}
+#top a.logo:hover{text-shadow:0 0 4px #ffffff}
+#top ul.right li{float:right;line-height:34px;padding:0 5px}
+#top ul.right li a{color:#fff;font-size:14px;}
+#top ul.right li a:hover{text-shadow:0 0 4px #ffffff}
+
+#left{width:200px;background:#fff;float:left;height:100%}
+#left ul.menu{border:1px #ccc solid;border-top:0;margin:5px;background:#fff;box-shadow:0 0 8px #c0c0c0;-webkit-box-shadow:0 0 8px #c0c0c0}
+#left li{zoom:1}
+#left li a{display:block;zoom:1;background:#c6c8cb;padding-left:8px;}
+#left li a:hover{background:#f0f1f2;text-shadow:0 0 4px #999999}
+#left li.menu{background:#d6d8db}
+#left li.menu a.menu{}
+#left li.menu a.open{}
+#left li.split{border-top:1px #aaa solid;border-bottom:1px #ccc solid;height:0px;overflow:hidden}
+#left li a.menu{font-size:14px;color:#333;line-height:28px;}
+#left ul.submenu{margin-top:2px;margin-bottom:5px;display:none;}
+#left li.submenu{background:#fff;}
+#left li.submenu a{font-size:12px;line-height:20px;color:#555;background:#fff}
+#left li.submenu a:hover{background:#eee}
+
+
+#main{width:200px;float:left;height:100%}
+#main iframe{width:100%;height:100%}
