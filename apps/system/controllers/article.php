@@ -247,6 +247,9 @@ class Article extends MB_Controller {
 		$this->data['page']=$this->tags->showPage(site_url('article/tags'));
 		$this->view('article_tags');
 	}
+	public function tagsadd(){
+		$this->view('article_tagsadd');
+	}
 	public function tagsbatchadd(){
 		$this->view('article_tagsbatchadd');
 	}

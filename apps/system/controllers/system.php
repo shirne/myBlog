@@ -329,7 +329,9 @@ class System extends MB_Controller
 			"max_size"=>2 * 1024               //文件大小限制，2MB
 		);
 		
-		$json['title']=htmlspecialchars($_POST['pictitle']);
+		if(!empty($_POST['pictitle'])){
+			$json['title']=htmlspecialchars($_POST['pictitle']);
+		}
 		if($this->uploadfile('picdata',$config)){
 			$data=$this->upload->data();
 			$json['url']=$data['file_name'];
